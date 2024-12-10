@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: #d6dbdf;
+  padding: 40px;
+  border-radius: 40px;
+  box-shadow: 0 0 10px (rgba(0, 0, 0, 0.1));
+  width: 300px;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-button {
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+.input-button:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  font-size: small;
+  margin: 0;
+}
+
+.alternative-login-message {
+  font-size: 13px;
+  padding-top: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
